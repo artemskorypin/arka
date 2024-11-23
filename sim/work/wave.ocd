@@ -1,0 +1,199 @@
+$date
+	Tue Sep 24 22:11:39 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module tb_mealy $end
+$var wire 2 ! y [1:0] $end
+$var reg 2 " a [1:0] $end
+$var reg 1 # clk $end
+$var reg 1 $ rst $end
+$scope module dut $end
+$var wire 2 % a [1:0] $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var reg 2 & next_state [1:0] $end
+$var reg 2 ' state [1:0] $end
+$var reg 2 ( y [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx (
+bx '
+bx &
+bx %
+0$
+1#
+bx "
+bx !
+$end
+#5
+0#
+#10
+b0 !
+b0 (
+b0 &
+b0 '
+1$
+1#
+#15
+0#
+#20
+b11 "
+b11 %
+0$
+1#
+#25
+0#
+#30
+b1 !
+b1 (
+b1 &
+b0 "
+b0 %
+1#
+#35
+0#
+#40
+b1 '
+b1 &
+b10 !
+b10 (
+b11 "
+b11 %
+1#
+#45
+0#
+#50
+b0 &
+b1 !
+b1 (
+b10 "
+b10 %
+1#
+#55
+0#
+#60
+b0 '
+b10 !
+b10 (
+b10 &
+b1 "
+b1 %
+1#
+#65
+0#
+#70
+b10 '
+b1 !
+b1 (
+b10 &
+b11 "
+b11 %
+1#
+#75
+0#
+#80
+b11 !
+b11 (
+b0 &
+b1 "
+b1 %
+1#
+#85
+0#
+#90
+b0 '
+b11 &
+b11 !
+b11 (
+b10 "
+b10 %
+1#
+#95
+0#
+#100
+b11 '
+b11 &
+b1 !
+b1 (
+b11 "
+b11 %
+1#
+#105
+0#
+#110
+b0 &
+b10 !
+b10 (
+b0 "
+b0 %
+1#
+#115
+0#
+#120
+b0 '
+b10 !
+b10 (
+b10 &
+b1 "
+b1 %
+1#
+#125
+0#
+#130
+b10 '
+b0 !
+b0 (
+b1 &
+b10 "
+b10 %
+1#
+#135
+0#
+#140
+b1 '
+b11 !
+b11 (
+b10 &
+b0 "
+b0 %
+1#
+#145
+0#
+#150
+b10 !
+b10 (
+b11 &
+b10 '
+1#
+#155
+0#
+#160
+b11 '
+b10 &
+b0 !
+b0 (
+b10 "
+b10 %
+1#
+#165
+0#
+#170
+b1 &
+b10 '
+1#
+#175
+0#
+#180
+b1 !
+b1 (
+b0 &
+b1 '
+1#
